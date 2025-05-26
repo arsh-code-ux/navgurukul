@@ -1,0 +1,133 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    background-color: rgb(236, 227, 227);
+    
+}
+.logo {
+    height: 30%;
+    width: 30%;
+    justify-items: left;
+    padding: 2px;
+}
+
+
+
+.heading {
+text-align: center;
+color: black;
+font-size: 70px;
+
+
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-right: 25px auto;
+    text-align: left;
+    display: flex; 
+    gap: 15%;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline; 
+    
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    border-top-left-radius: 2px;
+    
+   
+}
+
+nav ul li a:hover {
+    color: white; 
+}
+
+
+.ng img {
+    
+    display: flex;
+    gap: 10%;
+}
+ .ng  {
+    
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: inline;
+    align-items: center;
+    
+}
+.container {
+    padding: 6px;
+    
+    
+}
+
+.me{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header {
+    background-color: rgb(23, 165, 165);
+    border: 2px solid grey;
+    
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    
+    
+}
+footer{
+    background-color: rgb(23, 165, 165);
+    border: 2px solid grey;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.ftr footer{
+    display: flex;
+    gap: 15%;
+}
+.ftr {
+    height: 90px;
+    width: 15%;
+    padding: 2px;
+    margin: 6px;
+    gap: 15%;
+    border: 1px solid grey;
+    border-radius: 20px;
+    font-weight: bolder;
+    box-shadow: rgb(179, 103, 103);
+    
+}
+
+div .anchor {
+    border: 2px solid darkgray;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 15px;
+    padding: 10px;
+    margin-bottom:2%;
+    margin-top:2%;
+
+}
+.anchor:hover{
+    color: black;
+
+}
